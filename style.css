@@ -1,0 +1,51 @@
+.nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.nav-items{
+    list-style:none;
+    display:flex;
+}
+
+.nav-items > li {
+    padding:10px;
+    color:seagreen;
+    font:message-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    font-weight:bold;
+    letter-spacing:3px;
+    line-height:0px;
+    text-align:end;
+    text-decoration-color:tomato;
+    text-decoration-line: underline;
+    text-indent:0px;
+    text-transform:none;
+    vertical-align:0px;
+}
+
+.img {
+    width:60px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: green;
+   color: white;
+   text-align: center;
+}
+
+.header {
+    border-radius: 2px;
+    color:orange;
+}
+
+.ol {
+    color:navy
+}
